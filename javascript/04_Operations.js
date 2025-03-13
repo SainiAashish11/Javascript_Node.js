@@ -47,7 +47,7 @@ console.log(count)
 // Prefix (++x) is useful when you need the incremented value immediately.
 
 // ********************************************//
-
+ 
 console.log(null > 0)   // 0 > 0    => false
 console.log(null == 0)  // loose equality mein, null == undefined => false
 console.log(null >= 0)  // 0 >= 0   => true
