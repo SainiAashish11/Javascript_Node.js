@@ -49,3 +49,18 @@ const newArr = myArr.join()
 console.log(newArr);           // 'newArr' => string datatype
 
 // slice and splice
+// slice  : it takes out the given range array as 'slice (m,n)' excluding 'n' and do not change the 'original array'
+// splice : it takes out the given range array as 'splice (m,n)' including 'n' and change the 'original array' as well
+
+const myn1 = [1, 2, 3, 4, 5, 6, 7, 8]
+console.log(myn1.slice(1,3));             // output : [2, 3] and 'myn1' remains same
+console.log(myn1);
+
+const myn2 = [1, 2, 3, 4, 5, 6, 7, 8]     // output : [2, 3, 4] and 'myn2' changed as [1, 5, 6, 7] 
+console.log(myn2.splice(1,3))            
+console.log(myn2)
+
+// Note : slice() do not change the original array but splice()
+
+
+
